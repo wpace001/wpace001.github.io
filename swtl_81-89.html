@@ -1,0 +1,109 @@
+<!--William Pace-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <script src="scripts/swtl_81-89.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>
+        Soulless Gaming | Smarter Way to Learn JS chapters 81-89
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Soulless Gaming
+        </h1>
+        <nav>
+            <a href="http://students.cpcc.edu/~wpace001/" class="myButton">Web Space</a>
+            <a href="https://github.com/wpace001" class="myButton">GitHub Account</a>
+            <a href="https://wpace001.github.io" class="myButton">GitHub Website</a>
+            <a href="https://github.com/wpace001/courseid" class="myButton">GitHub Course ID</a>
+            <a href="https://www.freecodecamp.org/wpace001" class="myButton">FreeCodeCamp</a>
+            <a href="https://www.codecademy.com/profiles/wpace001" class="myButton">CodeAcademy</a>
+            <a href="http://www.khanacademy.org/profile/wpace001" class="myButton">KhanAcademy</a>
+            <a href="https://jsfiddle.net/user/wpace001/fiddles/" class="myButton">JSfiddle</a>
+            <a href="https://profile.edx.org/u/wpace001" class="myButton">EDX</a>
+            <a href="https://www.linkedin.com/in/william-pace-2449ab1b4/" class="myButton">LinkedIn</a>
+        </nav>
+        <figure>
+            <img alt="Logo" src="images/soulless_moving_logo" width="600px" height="400px">
+        </figure>
+    </header>
+    <main>
+        <h1>Smarter Way to Learn Chapters 81-89</h1>
+        <h3 class="swtl">Chapter 81: Browser control - Testing popup blockers</h3>
+        <p>Test for popup blockers from the browser of the users.</p>
+        <p id="81"></p>
+        <h3 class="swtl">Chapter 82: Form validation - text fields</h3>
+        <p>Validate the user input when filling out forms</p>
+        <form action="javascript:void(0)" onsubmit="return chap82();">
+            <label id="82">Please enter your gaming device</label><br>
+            <input type="text" id="gaming">
+            <input type="submit" value="Submit Form" class="myButton">
+        </form>
+        <h3 class="swtl">Chapter 83: Form validation - drop-downs</h3>
+        <p>Make and validate a drop-down menu.</p>
+        <form action="javascript:void(0)" onsubmit="return chap83('gameOption');">
+            <select id="gameOption" class="myButton">
+            <option value="" selected="selected">Please select your game</option>
+            <option value="space">Destiny</option>
+            <option value="shooter">Call of Duty</option>
+            <option value="role">Monster Hunter</option></select><br>
+            <input type="submit" value="Submit" class="myButton">
+        </form>
+        <p id="83"></p>
+        <h3 class="swtl">Chapter 84: Form validation - radio buttons</h3>
+        <p>How to validate a form with radio buttons.</p>
+        <form action="javascript:void(0)" onsubmit="return chap84('gameItem');">
+            <label>Please check an item.</label><br>
+            <input type="radio" name="gameItem" value="space">Destiny<br>
+            <input type="radio" name="gameItem" value="shooter">Call of Duty<br>
+            <input type="radio" name="gameItem" value="role">Monster Hunter<br>
+            <input type="submit" value="Submit" class="myButton">
+        </form>
+        <p id="84"></p>
+        <h3 class="swtl">Chapter 85: Form validation - ZIP codes</h3>
+        <p><i>.value.length</i> Number of characters in the field will be assigned to the variable</p>
+        <form action="javascript:void(0)" onsubmit="return chap85();">
+            <label>Please enter your phone number</label><br>
+            <input type="text" id="phone" maxlength="10" value="">
+            <input type="submit" value="Submit" class="myButton">
+        </form>
+        <p id="85"></p>
+        <h3 class="swtl">Chapter 86: Form validation - email</h3>
+        <p>Validate an Email.</p>
+        <form action="javascript:void(0)" onsubmit="return chap86();">
+            <label>Please enter Email Address.</label>
+            <br>
+            <input type="text" id="email" value="">
+            <input type="submit" value="Submit" class="myButton">
+        </form>
+        <p id="86"></p>
+        <h3 class="swtl">Chapter 87: &amp;mdash Exceptions - try and catch</h3>
+        <p>The try...catch approach is mainly useful for spotting undefined variables</p>
+        <button class="myButton" onclick="chap87()">Show me the error</button>
+        <p id="87"></p>
+        <h3 class="swtl">Chapter 88: Exceptions - throw</h3>
+        <form action="javascript:void(0)" onsubmit="return chap88();">
+            <label>Enter Email Address.</label><br>
+            <input type="text" id="userInput" value="">
+            <input type="submit" value="Submit" class="myButton">
+        </form>
+        <p id="88"></p>
+        <h3 class="swtl">Chapter 89: Handle events within JavaScript</h3>
+        <p>How to create a pop up window</p>
+    </main>
+    <footer>
+        <p>
+            Page built by Soulless Gaming © 2020
+        </p>
+        <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS </a>
+    </footer>
+
+</body>
+
+</html>

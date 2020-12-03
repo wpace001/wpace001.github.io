@@ -1,0 +1,96 @@
+<!--William Pace-->
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <link href="styles/default.css" rel="stylesheet" type="text/css" />
+        <script src="scripts/swtl_31-40.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>
+          Soulless Gaming | Smarter Way to Learn JS chapters 41-50
+        </title>
+    </head>
+    <body>
+        <header>
+          <h1>
+            Soulless Gaming	
+          </h1>
+          <nav>
+            <a href="http://students.cpcc.edu/~wpace001/" class="myButton">Web Space</a>
+			      <a href="https://github.com/wpace001"  class="myButton">GitHub Account</a>
+			      <a href="https://wpace001.github.io"  class="myButton">GitHub Website</a>
+			      <a href="https://github.com/wpace001/courseid"  class="myButton">GitHub Course ID</a>
+			      <a href="https://www.freecodecamp.org/wpace001"  class="myButton">FreeCodeCamp</a>
+		      	<a href="https://www.codecademy.com/profiles/wpace001" class="myButton">CodeAcademy</a>
+		      	<a href="http://www.khanacademy.org/profile/wpace001" class="myButton">KhanAcademy</a>
+			      <a href="https://jsfiddle.net/user/wpace001/fiddles/" class="myButton">JSfiddle</a>
+			      <a href="https://profile.edx.org/u/wpace001" class="myButton">EDX</a>
+			      <a href="https://www.linkedin.com/in/william-pace-2449ab1b4/" class="myButton">LinkedIn</a>
+		    	</nav>
+          <figure>
+            <img alt="Logo" src="images/soulless_moving_logo" width= "600px" height= "400px"/>
+          </figure> 
+		      </header>
+<main>
+  <h1>Smarter Way to Learn Chapters 41-50</h1>
+	  <h3 class="swtl">Chapter 41: While loops</h3>
+      <p>The while loop loops through a block of code as long as a specified condition is true.</p>
+    <ul>
+      <li>var counter is initialized with a value before the loop.</li>
+      <li>The counter is then updated within the code.</li>
+    </ul>
+      <button class="myButton" onclick="chap41()">Click me</button>	
+    <p id="chapter41"></p>
+	<h3 class="swtl">Chapter 42: Doing...While loops</h3>
+	  <p>The do...while statement creates a loop that executes a block of code, before checking if the condition is true or false, then it will repeat the loop as long as the condition is true.</p>
+    <button class="myButton" onclick="chap42()">Do...while loop</button>
+    <p id="chapter42"></p>
+	<h3 class="swtl">Chapter 43: Placing scripts appropriatly</h3>
+    <p>JavaScript code is inserted between &lt;script&gt; and &lt;/script&gt; tags.</p>
+    <p>You can place multiple scripts in an HTML document. Scripts can be placed only in the &lt;body&gt;, or in the &lt;head&gt; section of an HTML page, or even in both.</p>
+	<h3 class="swtl">Chapter 44: Commenting</h3>
+    <p>Comments can be used to explain JavaScript code to make it easier to read and understand.</p>
+    <p>Single line comments start with //</p>
+    <p>Multi-line comments start with /* and end with */.</p>
+	<h3 class="swtl">Chapter 45: Events with a Link</h3>
+    <p>HTML events are changes that happen to the HTML elements. When JavaScript is used in HTML pages, JavaScript can alter or move on these events.
+    HTML allows event handler attributes to be added to HTML elements.</p>
+    <p><i>onClick: </i>is the keyword that executes the browser to watch for a click on a link.</p>
+    <a href="JavaScript:void(0)" onclick="alert('Welcome to Soulless Gaming!');">Try me!</a>
+	<h3 class="swtl">Chapter 46: Events with a button</h3>
+    <p>The code creates a button that on click, executes a function.</p>
+    <p>&lt;input type="mybutton" value="Click me" onClick="Something();"&gt;</p>
+	  <input class="myButton" type="button" value="Click me" onclick="chap46();">
+	<h3 class="swtl">Chapter 47: Events with a mouse</h3>
+    <p><i>onMouseOver: </i>The user moves the mouse over an HTML element.</p>
+    <p><i>onMouseOut: </i>The user moves the mouse away from an HTML element.</p>
+    <img alt="Logo image" src="images/soulless_logo.png" onmouseover="src='images/soulless_moving_logo'" onmouseout="src='images/soulless_logo'">
+	<h3 class="swtl">Chapter 48: Events with a field</h3>
+    <p><i>onFocus: </i>is the keyword for detecting that the user has clicked in a field</p>
+    <p><i>onBlur: </i>is the keyword for detecting that a field no longer has the focus</p>
+	  <input type="text" onfocus="this.style.backgroundColor = 'blue';" onblur="this.style.backgroundColor = 'red';">
+	<h3 class="swtl">Chapter 49: Reading fields values</h3>
+    <p><i>onSubmit: </i>is the keyword for detecting that the user has submitted a form</p>
+    <p>Enter your way to play:<br></p>
+    <form onsubmit="chap49();">
+      <input type="text" id="firstchoice">
+      <input class="myButton" type="submit" value="Submit">
+    </form>	
+	<h3 class="swtl">Chapter 50: Setting field values</h3>
+    <p>When you set the form field values, it means it will automatic fill in values for form fields based on other values the users have input</p>
+  <form>
+  	<label for="Gaming method">Gaming:</label><br> 
+  	<input type="text" id="Gaming Method" name="method" value="" placeholder="Enter your gaming method here"><br>
+  	<label for="answer">Ready to play?</label><br>
+  	<input type="text" id="answer" name="answer" placeholder=""><br>
+	</form> 
+	<button class="myButton" onclick="chap50();">Submit</button>
+</main>          
+<footer>
+            <p>
+              Page built by Soulless Gaming © 2020
+            </p>
+            <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML</a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS </a>
+          </footer>
+    </body>
+</html>

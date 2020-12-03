@@ -1,0 +1,85 @@
+<!--William Pace-->
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <link href="styles/default.css" rel="stylesheet" type="text/css" />
+        <script src="scripts/swtl_51-60.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>
+          Soulless Gaming | Smarter Way to Learn JS chapters 51-60
+        </title>
+    </head>
+    <body>
+        <header>
+          <h1>
+            Soulless Gaming	
+          </h1>
+          <nav>
+            <a href="http://students.cpcc.edu/~wpace001/" class="myButton">Web Space</a>
+			      <a href="https://github.com/wpace001"  class="myButton">GitHub Account</a>
+			      <a href="https://wpace001.github.io"  class="myButton">GitHub Website</a>
+			      <a href="https://github.com/wpace001/courseid"  class="myButton">GitHub Course ID</a>
+			      <a href="https://www.freecodecamp.org/wpace001"  class="myButton">FreeCodeCamp</a>
+		      	<a href="https://www.codecademy.com/profiles/wpace001" class="myButton">CodeAcademy</a>
+		      	<a href="http://www.khanacademy.org/profile/wpace001" class="myButton">KhanAcademy</a>
+			      <a href="https://jsfiddle.net/user/wpace001/fiddles/" class="myButton">JSfiddle</a>
+			      <a href="https://profile.edx.org/u/wpace001" class="myButton">EDX</a>
+			      <a href="https://www.linkedin.com/in/william-pace-2449ab1b4/" class="myButton">LinkedIn</a>
+		    	</nav>
+          <figure>
+            <img alt="Logo" src="images/soulless_moving_logo" width= "600px" height= "400px"/>
+          </figure> 
+		      </header>
+              <main>
+                <h1>Smarter Way to Learn Chapters 51-60</h1>
+                    <h3 class="swtl">Chapter 51: Reading/setting paragraph text</h3>
+                        <p>We can expand info when requested by the user with innerHTML.</p>
+                        <p id="chapter51">Hello...</p>
+                        <input class="myButton" type="button" value="Click" onclick="chap51();">
+                    <h3 class="swtl">Chapter 52: Manipulating images/text</h3>
+                        <p>The <i>className</i> property of the Element interface sets the value of the class attribute of the specified element.</p>
+                        <p id="chapID" class="chapter52" onmouseover="addBgColor();">This is urgent.</p>
+                    <h3 class="swtl">Chapter 53: Swapping images</h3>
+                        <p><i>.src</i> can be used to swap images when certain conditions are met on an <i>img</i> element.</p>
+                        <img src="images/soulless_logo.png" id="before" onmouseover="chap53();" alt="Soulless">
+                    <h3 class="swtl">Chapter 54: Swapping images/setting classes</h3>
+                        <img src="images/soulless_logo.png" id="chap54" onmouseover="chap54(id, 'images/soulless_moving_logo.png');" onmouseout="chap54(id, 'images/soulless_logo.png');" alt="Logo and moving logo">
+                  <h3 class="swtl">Chapter 55: Setting styles</h3>
+                        <p><i>.style </i>to set styles of an HTML element.</p>	
+                        <img src="images/soulless_logo.png" id="chap55" onmouseover="chap55();" alt="Soulless">
+                  <h3 class="swtl">Chapter 56: Specify all the elements by tag name</h3>
+                        <p>Specify HTML elements by using their tag names.	</p>
+                        <p><i>document.getElementsByTagName("tagname");</i></p>
+                        <p>PC gaming</p>
+                        <p>Xbox</p>
+                        <p>PlayStation</p>
+                        <input class="myButton" type="button" value="Pick" onclick="chap56();">
+                  <h3 class="swtl">Chapter 57: Specify some elements by tag name</h3>
+                        <p>We can specify all the types of one element within another.</p>
+                        <p>Xbox</p>
+                        <p>PlayStation</p>
+                        <div id="best">
+                        <p>PC gaming</p>
+                        </div>
+                        <input class="myButton" type="button" value="Pick" onclick="chap57();"> 
+                  <h3 class="swtl">Chapter 58: DOM</h3>
+                        <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents.The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.</p>
+                  <h3 class="swtl">Chapter 59: The DOM - Parents/children</h3>
+                        <p>The DOM Node interface is an abstract base class upon which many other DOM API objects are base. Each element in the DOM is called a Node. All objects that implement Node functionality are based on one of its subclasses. Most notable are Document and Element. </p>
+                  <h3 class="swtl">Chapter 60: The DOM - Finding the children</h3>
+                        <p>We can use <i>.childNode[]</i> to specify certain HTML elements in the DOM via the parent-children relationship.</p>
+                        <p id="Ch60">
+                        <img src="images/soulless_logo.png" alt="Soulless">
+                        <img src="images/soulless_moving_logo.gif" alt="soulless_moving_logoS">
+                        </p>	
+                        <button class="myButton" onclick="chap60()">Try making a border</button>	
+              </main>          
+        <footer>                
+            <p>
+                Page built by Soulless Gaming © 2020
+            </p>
+            <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML</a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS </a>
+        </footer>
+    </body>
+</html>

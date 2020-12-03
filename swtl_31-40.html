@@ -1,0 +1,104 @@
+<!--William Pace-->
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <link href="styles/default.css" rel="stylesheet" type="text/css" />
+        <script src="scripts/swtl_31-40.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>
+          Soulless Gaming | Smarter Way to Learn JS chapters 31-40
+        </title>
+    </head>
+    <body>
+        <header>
+          <h1>
+            Soulless Gaming	
+          </h1>
+          <nav>
+            <a href="http://students.cpcc.edu/~wpace001/" class="myButton">Web Space</a>
+			      <a href="https://github.com/wpace001"  class="myButton">GitHub Account</a>
+			      <a href="https://wpace001.github.io"  class="myButton">GitHub Website</a>
+			      <a href="https://github.com/wpace001/courseid"  class="myButton">GitHub Course ID</a>
+			      <a href="https://www.freecodecamp.org/wpace001"  class="myButton">FreeCodeCamp</a>
+		      	<a href="https://www.codecademy.com/profiles/wpace001" class="myButton">CodeAcademy</a>
+		      	<a href="http://www.khanacademy.org/profile/wpace001" class="myButton">KhanAcademy</a>
+			      <a href="https://jsfiddle.net/user/wpace001/fiddles/" class="myButton">JSfiddle</a>
+			      <a href="https://profile.edx.org/u/wpace001" class="myButton">EDX</a>
+			      <a href="https://www.linkedin.com/in/william-pace-2449ab1b4/" class="myButton">LinkedIn</a>
+		    	</nav>
+          <figure>
+            <img alt="Logo" src="images/soulless_moving_logo" width= "600px" height= "400px"/>
+          </figure> 
+		      </header>
+              <main>
+                <h2>Smarter Way to Learn Chapters 31-40</h2>
+                  <h3 class="swtl">Chapter 31: Current date and time</h3>
+                    <p><i>Date()</i> Creates a new date object to get the current date and time</p>
+                    <button class="myButton" onclick="chap31()">Today's date is:</button>	
+                    <p id="time31"></p>
+                  <h3 class="swtl">Chapter 32: Extracting date and time</h3>
+                    <p>The Date() object can be modified to get different time format.</p>
+                    <p><i>getDay()</i>: The day from the Date object.</p>
+                    <p><i>getMonth()</i>: The month from the Date object.</p>
+                    <p><i>getDate()</i>: The date from the Date object.</p>
+                    <p><i>getFullYear()</i>: The year from the Date object.</p>
+                    <p><i>getHours() </i>: The hour from the Date object.</p>
+                    <p><i>getMinutes()</i>: The minute from the Date object.</p>
+                    <p><i>getSeconds()</i>: The second from the Date object.</p>
+                    <p><i>getMillisecond()</i>: The millisecond from the Date object.</p>
+                    <p><i>getTime() </i>: The milliseconds since: December 7, 1941.</p>
+                    <button class="myButton" onclick="chap32()">Year</button>
+                    <button class="myButton" onclick="chap32b()">Month</button>
+                    <button class="myButton" onclick="chap32c()">Week</button>
+                    <button class="myButton" onclick="chap32d()">Hour</button>
+                    <button class="myButton" onclick="chap32e()">Minutes</button>
+                    <button class="myButton" onclick="chap32f()">What time is it?</button>
+                    <p id="time32"></p>
+                  <h3 class="swtl">Chapter 33: Specify the date and time</h3>
+                    <p>var todayDay = new Date("MonthDate,Year");</p>
+                    <button class="myButton" onclick="chap33()">Hope to stream</button>
+                  <h3 class="swtl">Chapter 34: Altering the elements of date and time</h3>
+                    <p>Using the below methods to change parts of a Date object.</p>
+                    <p><i>setFullYear()</i>: The year to the Date object.</p>
+                    <p><i>setMonth()</i>: The month to the Date object.</p>
+                    <p><i>setDate()</i>: The date to the Date object.</p>
+                    <p><i>setHours()</i>: The hour to the Date object.</p>
+                    <p><i>setMinutes() </i>: The minute to the Date object.</p>
+                    <p><i>setSeconds()</i>: The second to the Date object.</p>
+                    <p><i>setMilliseconds()</i>: The milliseconds past the second of the Date object.</p>
+                    <p><i>getMillisecond()</i>: The millisecond from the Date object.</p>
+                    <p><i>getTime() </i>: The milliseconds since: December 7, 1941.</p>
+                    <button class="myButton" onclick="chap34()">Stream start date</button>
+                    <p id="chapter34"></p>
+                  <h3 class="swtl">Chapter 35: Functions</h3>
+                    <p>A function is a block of code that has a specific task and can be reused when the time is needed.</p>	
+                    <button class="myButton" onclick="chap35()">Functions</button>	
+                    <p id="chapter35"></p>
+                  <h3 class="swtl">Chapter 36: Functions: Passing data</h3>
+                    <p>A function can be set up to allow users to give data when it is asked for.</p>
+                    <button class="myButton" onclick="chap36()">Pass the aux cord</button>
+                    <p id="chapter36"></p>
+                  <h3 class="swtl">Chapter 37: Functions: Passing data back to them</h3>
+                    <p>A function can return a value to the code that asks for it.</p>
+                    <button class="myButton" onclick="chap37()">Return the aux cord</button>
+                    <p id="chapter37"></p>
+                  <h3 class="swtl">Chapter 38: Functions: Local vs. Global variables</h3>
+                    <p>A variable declared inside the main code is a global variable and known globally by all functions in that code.</p> 
+                    <p>A variable declared inside a function is a local variable and is known only inside that function.</p>
+                    <button class="myButton" onclick="chap38()">Localy</button>
+                    <button class="myButton" onclick="chap38b()">Globally</button>
+                  <h3 class="swtl">Chapter 39 & Chapter 40: Switch statements</h3>
+                    <p>Start switch statements and Complete switch statements.</p>
+                    <p>Switch statement work in a way like If/Else statements.</p>
+                    <button class="myButton" onclick="chap39()">Stream times</button>
+                    <p id="chapter39"></p>	
+              </main>
+          <footer>
+            <p>
+              Page built by Soulless Gaming © 2020
+            </p>
+            <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML</a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS </a>
+          </footer>
+    </body>
+</html>

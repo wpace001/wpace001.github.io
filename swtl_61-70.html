@@ -1,0 +1,117 @@
+<!--William Pace-->
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <link href="styles/default.css" rel="stylesheet" type="text/css" />
+        <script src="scripts/swtl_61-70.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>
+          Soulless Gaming | Smarter Way to Learn JS chapters 61-70
+        </title>
+    </head>
+    <body>
+        <header>
+          <h1>
+            Soulless Gaming	
+          </h1>
+          <nav>
+            <a href="http://students.cpcc.edu/~wpace001/" class="myButton">Web Space</a>
+			      <a href="https://github.com/wpace001"  class="myButton">GitHub Account</a>
+			      <a href="https://wpace001.github.io"  class="myButton">GitHub Website</a>
+			      <a href="https://github.com/wpace001/courseid"  class="myButton">GitHub Course ID</a>
+			      <a href="https://www.freecodecamp.org/wpace001"  class="myButton">FreeCodeCamp</a>
+		      	<a href="https://www.codecademy.com/profiles/wpace001" class="myButton">CodeAcademy</a>
+		      	<a href="http://www.khanacademy.org/profile/wpace001" class="myButton">KhanAcademy</a>
+			      <a href="https://jsfiddle.net/user/wpace001/fiddles/" class="myButton">JSfiddle</a>
+			      <a href="https://profile.edx.org/u/wpace001" class="myButton">EDX</a>
+			      <a href="https://www.linkedin.com/in/william-pace-2449ab1b4/" class="myButton">LinkedIn</a>
+		    	</nav>
+          <figure>
+            <img alt="Logo" src="images/soulless_moving_logo" width= "600px" height= "400px"/>
+          </figure> 
+		      </header>
+              <main>
+                <h1>Smarter Way to Learn Chapters 61-70</h1>
+                <h3 class="swtl">Chapter 61: DOM - Junk artifacts and nodeTypes</h3>
+                    <p>The childNodes property returns a collection of a node's child nodes, as a NodeList object.</p>
+                    <p>The nodes in the collection are sorted as they appear in the source code and can be accessed by index numbers. The index starts at 0.</p>
+                    <p>This website doesn't have Nintendo Switch</p>
+                    <div id="soul" class="chap61">
+                    <p>Index 1: Xbox</p>
+                    <p>Index 3: PlayStation</p>
+                    </div>
+                    <button class="myButton" onclick="chap61()">Nodes</button>
+                    <p id="61"></p>
+                <h3 class="swtl">Chapter 62: DOM - More ways to specify elements</h3>
+                    <p><i>lastChild: </i>Returns the last child node of the specified node, as a Node object.</p>
+                    <p><i>firstChild: </i>Returns the first child node of the specified node, as a Node object.</p>
+                    <p><i>parentNode: </i>Returns the parent node of the specified node, as a Node object.</p>
+                    <p><i>nextSibling: </i>Returns the node immediately following the specified node, in the same tree level</p>
+                    <p><i>previousSibling: </i>Returns the previous node of the specified node, in the same tree level.</p>
+                    <p>The last gaming device I would play on is: </p>
+                    <div id="soul2" class="chap61">
+                    <p>Xbox</p>
+                    <span>PlayStation</span>
+                    </div>
+                    <button class="myButton" onclick="chap62()">lastChild</button>
+                    <p id="62"></p>
+                <h3 class="swtl">Chapter 63: DOM - Making a specified name</h3>
+                    <p><i>nodeName: </i>returns the name of the specified node.</p>
+                    <p>If the node is an element node, the nodeName property will return the tag name.</p>
+                    <p>The first element of the div is: </p>
+                    <div id="soul3" class="chap61">
+                    <ul>
+                      <li>PC</li>
+                      <li>Xbox</li>
+                      <li>PlayStation</li>
+                    </ul>
+                    </div>
+                    <button class="myButton" onclick="chap63()">Click me</button>
+                    <p id="63"></p>
+                  <h3 class="swtl">Chapter 64: DOM - Counting elements tags</h3>
+                    <p>You can use the length property of the NodeList object to determine the number of child nodes.</p>
+                    <p>The first element of the div is: </p>
+                    <div id="soul4" class="chap61">
+                    <ul>
+                      <li>PC</li>
+                      <li>Xbox</li>
+                      <li>PlayStation</li>
+                    </ul>
+                    </div>
+                    <button class="myButton" onclick="chap64()">Click</button>
+                    <p id="64"></p>
+                  <h3 class="swtl">Chapter 65: DOM - Attributes</h3>
+                    <p><i>hasAttribute()</i>Method returns true if the specified attribute exists, otherwise it returns false.</p>	
+                    <p><i>setAttribute()</i>Method adds the specified attribute to an element, and gives it the specified value.</p>
+                    <p><i>getAttribute()</i>Method returns the value of the attribute with the specified name, of an element.</p>
+                    <input value="OK">
+                    <button class="myButton" onclick="chap65()">Set to Button</button>
+                    <button class="myButton" onclick="chap65b()">Set Class Button</button>
+                  <h3 class="swtl">Chapter 66: DOM - Attribute names/values</h3>
+                    <p><i>getAttribute()</i>Method returns the value of the attribute with the specified name.</p>
+                    <button class="myButton" id="myButton" onclick="chap66()">Click to get value</button>
+                    <p id="66"></p>
+                  <h3 class="swtl">Chapter 67 & 68: DOM - Adding nodes & Inserting nodes</h3>
+                    <p><i>createElement()</i>Method creates an Element Node with the specified name.</p>
+                    <p>element.innerHTML = "text goes here"; to insert text</p>
+                    <div id="soul5">
+                    <button class="myButton" onclick="chap67()">Create  one</button>
+                    </div>
+                  <h3 class="swtl">Chapter 69: Objects</h3>
+                    <p>Creating an object.</p>
+                    <button class="myButton" onclick="chap69()">Your prefered way to play</button>
+                    <p id="69"></p>
+                  <h3 class="swtl">Chapter 70: Objects with properties</h3>
+                    <p>Object property can be changed, properties added, or even find out if a property exists for an object.</p>
+                    <button class="myButton" onclick="chap70()">Change your prefered way to play</button>	
+                    <p id="70"></p>
+              </main>          
+        <footer>                
+            <p>
+                Page built by Soulless Gaming © 2020
+            </p>
+            <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML</a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS </a>
+        </footer>
+    </body>
+</html>
