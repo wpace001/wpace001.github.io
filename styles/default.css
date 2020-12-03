@@ -1,0 +1,94 @@
+body
+{
+	margin-left: 229px;
+	margin-right: 229px;
+	font-family: ariel, sans-serif;
+	color: #211539;
+	background-color: #919191;
+	font-size: 110%;
+	list-style-position: inside;
+	padding: 0px;
+}
+
+h1, h2, h3
+{
+	padding: 30px;
+	margin: 0px;
+}
+nav, figure
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main
+{
+	background: #4c4c4b;
+	padding: 20px;
+}
+
+footer
+{
+	text-align: center;
+	padding: 30px;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+/*Buttons
+<a href="#" class="myButton">light grey</a>
+*/
+
+.myButton 
+{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover 
+{
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.myButton:active 
+{
+	position:relative;
+	top:1px;
+}
+
+
+a:link { color: #303a52; }
+  
+a:visited { color: #303a52; }
+  
+a:hover{ color: darkgray; }
+  
+a:active{ color: powderblue; }
+  
+  /*JavaScript*/
+  .swtl_js-top
+  {
+	text-align: center;
+  }
+  
+  .swtl_js
+  {
+	border-top: 2px solid #f9f9f9;
+	padding-top: 20px;
+	text-align: center;
+  }
+  .form {display: inline-block; margin: 10px 80px 10px 0px;}
